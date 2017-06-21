@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<Meta content +"text/html; charset-8" http-equiv="content-type"/>
+		<link href="contact.css" rel="stylesheet"type="text/css"/>
+		<TITLE> Basiscursus HTML5</TITLE>
+</head>
+<body>
+    <header>
+    <h1>Colicss</h1>
+        <br>
+    <h2>Contact</h2>
+    <img src="afb/logo.png" class="logo">
+    
+    </header>
+    <div class="menu">
+    <a href="index.html"><h3>Homepage</h3></a>
+       <br>
+    <a href="hosting.html"><h3>Hosting service</h3></a>
+        <br>
+    <a href="cloud.html"><h3>Cloud service</h3></a>
+        <br>
+    <a href="klanten.html"><h3>Klanten</h3></a>
+        <br>
+    <a href="contact.html"><h3>Contact</h3></a>
+</div>  
+        <div class="info">
+    <h2>Contact info</h2>
+        <p>Colicss
+            <br>
+            Herenstraat 24
+            7776 AG, Slagharen
+            <br>
+            06-12412498
+            <br>
+            KVK: 05076893
+            <br>
+</p>
+    
+    </div>
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.8705333587513!2d6.553862815770009!3d52.62618367983436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c803f301228971%3A0x7c77a7ef1ccd9b37!2sHerenstraat+24%2C+7776+AJ+Slagharen!5e0!3m2!1snl!2snl!4v1492592884945" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+
+    </div>
+    <div id="main">
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Je moet wel wat invullen he knaak");
+        return false;
+        alert("dit moet ook inge")
+    }
+}
+</script>
+<form name="myForm" action="/action_page_post.php"
+onsubmit="return validateForm()" method="post">
+    Naam: <input type="text" name="fname">
+    Email: <input type="text" name="fmail">
+    Opmerking <input type="text" name="fop">
+    <input type="submit" value="Submit">
+
+ 
+</form>
+    </div>
+
+    
+<footer>
+    <h2>&copy; Coliccs B.V</h2>
+    <center>
+<div class="social">
+    <a href="https://twitter.com">
+    <img src="afb/Twitter-PNG-Clipart.png" class="twitter"></a>
+    <a href="https://facebook.nl"> 
+    <img src="afb/facebook-transparent-logo-png-0.png" class="facebook">
+    </a>
+</div>
+    </center>
+</footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    background-image: url(afb/siteback.png);
+    @import "http://fonts.googleapis.com/css?family=Ubuntu";
+    font-family: 'ubuntu', sans-serif;
+}
+
+header{
+    background-image: url(afb/headerback.jpg);
+    height: 200px;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow:0 0 15px;
+    
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+header h2{
+    text-align: center;
+}
+.menu h3{
+    border: solid black 2px;
+    padding: 2px;
+    opacity: 1.0
+}
+.menu {
+    background-image: url(afb/menuback.jpg);
+    width: 10%;
+    padding: 10px;
+    position: fixed;
+    border-radius: 5px;
+    border: solid black 2px;
+    z-index: 2;
+    box-shadow:0 0 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+    height: 100px;
+    border: solid black 2px;
+    opacity: 0.99
+}
+footer{
+    background-image: url(afb/headerback.jpg);
+    height: 115px;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow:0 0 15px;
+}
+footer h2{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.facebook{
+    width: 75px;
+ 
+}
+.twitter{
+    width: 75px;
+}
+.social{
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+}
+.info{
+    width: 50%;
+    background-color: orangered;
+    border: solid black 2px;
+    margin-top: 50px;
+    font-size: 20pt;
+    box-shadow:0 0 15px;
+    border-radius: 5px;
+}
+.bronspakket{
+    max-width: 40%;
+    background-color:darkgoldenrod;
+    border: solid black 2px;
+    margin-top: 20px;
+    font-size 16pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 5px;
+}
+.bronspakket p{
+    max-width: 80%;
+}
+.zilverpakket{
+    max-width: 40%;
+    background-color:silver;
+    border: solid black 2px;
+    margin-top: 20px;
+    font-size 16pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 5px;
+}
+.zilverpakket p{
+    max-width: 80%;
+}
+.goudpakket{
+    max-width: 40%;
+    background-color:gold;
+    border: solid black 2px;
+    margin-top: 20px;
+    font-size 16pt;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 5px;
+}
+
+.goudpakket p{
+    max-width: 80%;
+}
+.bestel{
+    text-decoration: none;
+    color: blue;
+}

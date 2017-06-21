@@ -1,0 +1,151 @@
+body{
+    background-image: url(afb/siteback.png);
+    @import "http://fonts.googleapis.com/css?family=Ubuntu";
+    font-family: 'ubuntu', sans-serif;
+}
+
+header{
+    background-image: url(afb/headerback.jpg);
+    height: 200px;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow:0 0 15px;
+    
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+header h2{
+    text-align: center;
+}
+.menu h3{
+    border: solid black 2px;
+    padding: 2px;
+    opacity: 1.0
+}
+.menu {
+    background-image: url(afb/menuback.jpg);
+    width: 10%;
+    padding: 10px;
+    position: fixed;
+    border-radius: 5px;
+    border: solid black 2px;
+    z-index: 2;
+    box-shadow:0 0 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+    height: 100px;
+    border: solid black 2px;
+    opacity: 0.99
+}
+footer{
+    background-image: url(afb/headerback.jpg);
+    height: 115px;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow:0 0 15px;
+}
+footer h2{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.facebook{
+    width: 75px;
+ 
+}
+.twitter{
+    width: 75px;
+}
+.social{
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+}   
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+div#main{
+background-color: orangered;
+width:830px;
+height:420px;
+margin-top: 200px;
+margin-bottom: 50px;
+border: solid black 2px;
+box-shadow: 0 0 15px;
+border-radius: 5px;
+margin-left: 220px;
+font-family:'Ubuntu',sans-serif
+}
+.form
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:90%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid black;
+}
+textarea{
+width:100%;
+border:3px solid black;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+width:100%;
+padding:10px 45px;
+background-color: dimgrey;
+border: solid 1px black;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
+.info{
+    font-size: 20pt;
+    margin-left: 55%;
+    margin-top: 50px;
+    border: solid black 2px;
+    box-shadow: 0 0 15px;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    max-width: 560px;
+}
+.map{
+    float: left;
+    border: solid black 2px;
+    box-shadow: 0 0 15px;
+    max-height: 450px;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-top: -270px;
+    margin-left: 12%;
+}
+iframe{
+    border-radius: 5px;
+}

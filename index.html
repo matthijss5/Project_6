@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<Meta content +"text/html; charset-8" http-equiv="content-type"/>
+		<link href="index.css" rel="stylesheet"type="text/css"/>
+		<TITLE> Basiscursus HTML5</TITLE>
+</head>
+<body>
+<header>
+    <h1>Colicss</h1>
+        <br>
+    <h2>Hosting en cloudservices specialist</h2>
+    <img src="afb/logo.png" class="logo">
+</header>
+<div class="menu">
+    <a href="index.html"><h3>Homepage</h3></a>
+       <br>
+    <a href="hosting.html"><h3>Hosting service</h3></a>
+        <br>
+    <a href="cloud.html"><h3>Cloud service</h3></a>
+        <br>
+    <a href="klanten.html"><h3>Klanten</h3></a>
+        <br>
+    <a href="contact.html"><h3>Contact</h3></a>
+</div>
+    <center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="afb/Server-Room.jpg" style="width:100%">
+  <div class="text">Sample text</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="afb/ObserveIT%20Enterprise%20Hardware%20and%20Software%20Sizing%20Recommendations%20%20CA%20....jpg">
+  <div class="text">Sample text</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="afb/photodune-2572921-cloud-computing-l.jpg" style="width:100%">
+  <div class="text">Sample text</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+<script src="slide.js"></script>
+    
+<div class="algemeen"   >
+    <h2>algemene infomatie</h2>
+    <p>
+        Colicss is een innovatief en vernieuwend bedrijf uit Slagharen dat zich vooral bezig houdt met hosting en sinds kort ook de Cloud. Het bedrijf gaat onder leiding van Wilco Beltman al een poos flink voor de wind en zijn binnen twee jaar gegroeid van een eenmanszaak naar een bedrijf met zes man personeel. 
+
+        Onlangs hebben ze nog een prijs gewonnen voor beste innovatie binnen de hosting door samen te werken met het Alfa-college. In dit project hebben studenten van het Alfa-college een hostingomgeving opgezet met daarop een testwebsite. Het panel van deze prijs vond de samenwerking zo gaaf, dat ze de prijs beste innovatie hebben gewonnen.
+    </p>
+</div>
+    
+<div class="calc">
+    <FORM Name="myform">
+  <SELECT NAME="hostingItem" onChange="calculatePrice()" id="hostingItem">
+    <OPTION value="0">Kies uw hosting pakket</OPTION>
+    <OPTION value=5.95>Brons pakket</OPTION>
+    <OPTION value=7.95>zilver pakket</OPTION>
+    <OPTION value=10.95>Goud pakket</OPTION>
+  </SELECT>
+<br>
+  <SELECT NAME="cloudItem" onChange="calculatePrice()" id="cloudItem">
+    <OPTION value=0>Kies uw cloud pakket</OPTION>
+    <OPTION value=4.00>Geel pakket</OPTION>
+    <OPTION value=6.00>Oranje pakket</OPTION>
+    <OPTION value=10.00>Groen pakket</OPTION>
+  </SELECT>
+<br>
+  <SELECT NAME="tijdItem" onChange="calculatePrice()" id="tijdItem">
+    <OPTION value="0">Kies uw aantal maanden</OPTION>
+    <OPTION value="1">1 maand</OPTION>
+    <OPTION value="12">12 maanden (1 jaar)</OPTION>
+    <OPTION value="60">60 maanden (5 jaar)</OPTION>
+  </SELECT>
+    </FORM>
+
+    <button type="button" onclick="calculatePrice()">Bereken</button>
+    <br>
+
+    <p>De prijs is </p>
+<INPUT type="text" id="PicExtPrice" Size=8></INPUT>
+</div>
+    
+    <script>
+    function calculatePrice(myform) {
+
+  var elt = document.getElementById("hostingItem");
+  var hosting = elt.options[elt.selectedIndex].value;
+
+  var elt = document.getElementById("cloudItem");
+  var cloud = elt.options[elt.selectedIndex].value;
+
+  var elt = document.getElementById("tijdItem");
+  var tijd = elt.options[elt.selectedIndex].value;
+
+  hosting = parseFloat(hosting);
+  cloud = parseInt(cloud);
+  tijd = parseInt(tijd);
+
+  var total = (hosting + cloud) * tijd
+  
+  
+
+  document.getElementById("PicExtPrice").value = total;
+
+}
+    </script>
+                <div class="timeline">
+            <a class="twitter-timeline"  href="https://twitter.com/hashtag/colicss" data-widget-id="854604417018060800">Tweets over #colicss</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+    
+    <br>
+        <center>
+    <div class="hosting">
+        <h2 class="hostingpakketen">Hosting service</h2>
+    <div class="brons">
+    <h3>Pakket Brons</h3>
+        <p>10 GB HDD, 512 MB RAM, 1 Core, 
+        <br>  
+        100 GB dataverkeer per maand	 (5,95 euro per maand)</p>
+    
+    </div>
+    <div class="zilver">
+    <h3>Pakket Zilver</h3>
+        <p>Pakket Silver: 20 GB HDD, 1048 MB RAM, 2 Cores, <br>200 GB dataverkeer per maand (7,95 euro per maand)</p>
+    
+    
+    </div>
+    <div class="goud">
+    <h3>Pakket Goud</h3>
+        <p>10 GB HDD, 512 MB RAM, 1 Core, 
+        <br>  
+        Pakket Goud: 50 GB HDD, 2048 MB RAM, 4 Cores, onbeperkt
+            <br>
+        dataverkeer per maand (10,95 euro per maand)</p>
+  
+    
+    </div>
+    </div>
+    </center>
+    <br>
+    <center>
+    <div class="cloud">
+        <h2 class="cloudpakketen">Cloud service</h2>
+        <div class="geel">
+        <h3>Geel</h3>
+            <p>10GB opslag (4euro per maand)</p>
+        </div>
+        <div class="oranje">
+        <H3>Oranje</H3>
+            <p>100 GB opslag (6 euro per maand)</p>
+        </div>
+        <div class="groen">
+        <h3>Groen</h3>
+            <p>TB (10 euro per maand)</p>
+        </div>
+    </div>
+    </center>
+    <br>
+    <br> 
+<footer>
+    <h2>&copy; Coliccs B.V</h2>
+    <center>
+<div class="social">
+    <a href="https://twitter.com">
+    <img src="afb/Twitter-PNG-Clipart.png" class="twitter"></a>
+    <a href="https://facebook.nl"> 
+    <img src="afb/facebook-transparent-logo-png-0.png" class="facebook">
+    </a>
+</div>
+    </center>
+</footer>
+</body>
+</html>

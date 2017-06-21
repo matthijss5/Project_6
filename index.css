@@ -1,0 +1,255 @@
+body{
+    background-image: url(afb/siteback.png);
+    @import "http://fonts.googleapis.com/css?family=Ubuntu";
+    font-family: 'ubuntu', sans-serif;
+}
+
+header{
+    background-image: url(afb/headerback.jpg);
+    height: 200px;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow:0 0 15px;
+    
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+header h2{
+    text-align: center;
+}
+.menu h3{
+    border: solid black 2px;
+    padding: 2px;
+    opacity: 1.0
+}
+.menu {
+    background-image: url(afb/menuback.jpg);
+    width: 10%;
+    padding: 10px;
+    position: fixed;
+    border-radius: 5px;
+    border: solid black 2px;
+    z-index: 2;
+    box-shadow:0 0 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+    height: 100px;
+    border: solid black 2px;
+    opacity: 0.99
+}
+footer{
+    background-image: url(afb/headerback.jpg);
+    height: 115px;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow:0 0 15px;
+}
+footer h2{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.algemeen{
+    width: 40%;
+    background-color: orangered;
+    border: solid black 2px;
+    padding: 5px;
+    margin-top: 50px;
+    box-shadow: 0 0 15px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 14%
+}
+.algemeen h2{
+    text-align: center; 
+}
+.calc{
+    display: inline-block;
+    background-color: orangered;
+    padding: 5px;
+    border: solid black 2px;
+    box-shadow: 0 0 15px;
+    font-size: 20px;
+    float: left;
+    margin-top: 400px;
+    margin-left: -618px;
+    border-radius: 5px;
+    width: 500px;
+
+}
+
+
+.afb{
+    margin-top: 20px;
+    height: 70%;
+    border: solid black 5px; 
+    display: inline-block; 
+    text-align: center;
+}
+.facebook{
+    width: 75px;
+ 
+}
+.twitter{
+    width: 75px;
+}
+.social{
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+}
+.mySlides img{
+    max-width: 800px;
+    height: auto;
+    width: auto;    
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    border: solid black 2px;
+    max-width: 800px;
+    max-height: 533px;
+    margin-top: 50px;
+    box-shadow:0 0 25px;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.brons{
+    background-color: darkgoldenrod;
+    border: solid black 2px;
+    max-width: 250px;
+    margin-right: 50px;
+    box-shadow: 0 0 5px;
+}
+.zilver{
+    background-color: silver;
+    border: solid black 2px;
+    max-width: 250px;
+    box-shadow: 0 0 5px;
+}
+.goud{
+    background-color: gold;
+    border: solid black 2px;
+    max-width: 250px;
+    margin-left: 50px;
+    box-shadow: 0 0 5px;
+}
+.hostingpakketen{
+    z-index: 1;
+    display: block;
+    padding-right: 10px;
+}
+.cloudpakketen{
+    padding-right: 10px;
+}
+.hosting{
+    display: inline-flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid black 2px;
+    box-shadow:0 0 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.cloud{
+    display: inline-flex;
+    text-align: center;
+    background-color: orangered;
+    border: solid black 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow:0 0 15px;
+    border-radius: 5px;
+}
+.geel{ 
+    border:solid black 2px;
+    width: 250px;
+    background-color: yellow;
+    margin-right: 50px;
+    box-shadow: 0 0 5px;
+}
+.groen{
+    border:solid black 2px;
+    width: 250px;
+    background-color: green;
+    margin-left: 50px;
+    box-shadow: 0 0 5px;
+}
+.oranje{;
+    border:solid black 2px;
+    width: 250px;
+    background-color: orange;
+    box-shadow: 0 0 5px;
+}
+.timeline{
+    max-width: 520px;
+    box-shadow: black 0 0 15px;
+    float: right;
+    margin-right: 8%;
+    border: solid black 2px;
+    border-radius: 5px;
+    max-height: 599.4px;
+}
+
+
+
+
+
+
+
